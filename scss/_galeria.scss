@@ -1,0 +1,49 @@
+header{
+    @extend .header;
+    @extend .titulo-decoration;
+    @keyframes titulo-decoration{
+        0% {
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @extend .navbar;
+    @extend .container;
+}
+
+.mainImagenes{
+    margin-left: 30%;
+    padding-top: 11%;
+    padding-bottom: 0%;
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.footerImagenes{
+    background-color: $bgheader;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 0%;
+    color: $colortitulo;
+    text-align: center;
+}
+
+
+@mixin redes($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+.facebook{
+    @include redes(100px, 100px);
+}
+
+.instagram{
+    @include redes(100px, 100px);
+}
