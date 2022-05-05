@@ -4,8 +4,27 @@
     padding-top: 12%;
     padding-bottom: 2%;
     margin: 0.5%;
-    justify-content: center;
     align-items:center;
+}
+
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto2{
+    @extend .texto1;
+}
+
+.texto3{
+    @extend .texto1;
+}
+
+.texto4{
+    @extend .texto1;
 }
 
 .footer{
