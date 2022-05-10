@@ -1,54 +1,20 @@
-header {
-  background-color: #778899;
-  padding: 0.2%;
-  margin-right: 0.2%;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 100%;
-  position: fixed; }
-  header .titulo-decoration {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    animation-duration: 4s;
-    animation-name: titulo-decoration; }
-
-@keyframes titulo-decoration {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-  header .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    border-bottom: grey;
-    border-style: double; }
-    header .navbar li :hover {
-      transition: all 0.2s;
-      background-color: #778899; }
-    header .navbar a {
-      display: inline-block; }
-  header .container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    cursor: pointer; }
-
 .main {
   width: 95%;
   height: 100%;
   padding-top: 12%;
   padding-bottom: 2%;
   margin: 0.5%;
-  justify-content: center;
   align-items: center; }
 
+.texto1, .texto2, .texto3, .texto4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: black;
+  text-align: center;
+  justify-content: center; }
+
 .footer {
+  background-color: #778899;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -57,46 +23,13 @@ header {
   color: #ffffff;
   text-align: center; }
 
-header {
-  background-color: #778899;
-  padding: 0.2%;
-  margin-right: 0.2%;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 100%;
-  position: fixed; }
-  header .titulo-decoration {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    animation-duration: 4s;
-    animation-name: titulo-decoration; }
+.facebook {
+  width: 100px;
+  height: 100px; }
 
-@keyframes titulo-decoration {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-  header .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    border-bottom: grey;
-    border-style: double; }
-    header .navbar li :hover {
-      transition: all 0.2s;
-      background-color: #778899; }
-    header .navbar a {
-      display: inline-block; }
-  header .container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    cursor: pointer; }
+.instagram {
+  width: 100px;
+  height: 100px; }
 
 .mainServicios {
   width: 95%;
@@ -105,15 +38,11 @@ header {
   margin: 0.5%;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  text-decoration: none; }
+  text-align: center; }
 
 .card-body :hover {
   transition: all 0.2s;
   background-color: #778899; }
-
-.parrafo {
-  font-style: italic; }
 
 .footerServicios {
   background-color: #778899;
@@ -124,46 +53,13 @@ header {
   color: #ffffff;
   text-align: center; }
 
-header {
-  background-color: #778899;
-  padding: 0.2%;
-  margin-right: 0.2%;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 100%;
-  position: fixed; }
-  header .titulo-decoration {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    animation-duration: 4s;
-    animation-name: titulo-decoration; }
+.facebook {
+  width: 100px;
+  height: 100px; }
 
-@keyframes titulo-decoration {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-  header .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    border-bottom: grey;
-    border-style: double; }
-    header .navbar li :hover {
-      transition: all 0.2s;
-      background-color: #778899; }
-    header .navbar a {
-      display: inline-block; }
-  header .container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    cursor: pointer; }
+.instagram {
+  width: 100px;
+  height: 100px; }
 
 .mainContacto {
   width: 95%;
@@ -185,46 +81,13 @@ header {
   color: #ffffff;
   text-align: center; }
 
-header {
-  background-color: #778899;
-  padding: 0.2%;
-  margin-right: 0.2%;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 100%;
-  position: fixed; }
-  header .titulo-decoration {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    animation-duration: 4s;
-    animation-name: titulo-decoration; }
+.facebook {
+  width: 100px;
+  height: 100px; }
 
-@keyframes titulo-decoration {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-  header .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    border-bottom: grey;
-    border-style: double; }
-    header .navbar li :hover {
-      transition: all 0.2s;
-      background-color: #778899; }
-    header .navbar a {
-      display: inline-block; }
-  header .container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    cursor: pointer; }
+.instagram {
+  width: 100px;
+  height: 100px; }
 
 .mainPresupuesto {
   width: 95%;
@@ -244,46 +107,13 @@ header {
   color: #ffffff;
   text-align: center; }
 
-header {
-  background-color: #778899;
-  padding: 0.2%;
-  margin-right: 0.2%;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 100%;
-  position: fixed; }
-  header .titulo-decoration {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    animation-duration: 4s;
-    animation-name: titulo-decoration; }
+.facebook {
+  width: 100px;
+  height: 100px; }
 
-@keyframes titulo-decoration {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-  header .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    border-bottom: grey;
-    border-style: double; }
-    header .navbar li :hover {
-      transition: all 0.2s;
-      background-color: #778899; }
-    header .navbar a {
-      display: inline-block; }
-  header .container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    cursor: pointer; }
+.instagram {
+  width: 100px;
+  height: 100px; }
 
 .mainServicios {
   width: 95%;
@@ -292,15 +122,11 @@ header {
   margin: 0.5%;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  text-decoration: none; }
+  text-align: center; }
 
 .card-body :hover {
   transition: all 0.2s;
   background-color: #778899; }
-
-.parrafo {
-  font-style: italic; }
 
 .footerServicios {
   background-color: #778899;
@@ -311,46 +137,19 @@ header {
   color: #ffffff;
   text-align: center; }
 
-header {
-  background-color: #778899;
-  padding: 0.2%;
-  margin-right: 0.2%;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 100%;
-  position: fixed; }
-  header .titulo-decoration {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.5rem;
-    animation-duration: 4s;
-    animation-name: titulo-decoration; }
+.facebook {
+  width: 100px;
+  height: 100px; }
+
+.instagram {
+  width: 100px;
+  height: 100px; }
 
 @keyframes titulo-decoration {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-  header .navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 95%;
-    border-bottom: grey;
-    border-style: double; }
-    header .navbar li :hover {
-      transition: all 0.2s;
-      background-color: #778899; }
-    header .navbar a {
-      display: inline-block; }
-  header .container {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    cursor: pointer; }
 
 .mainImagenes {
   margin-left: 30%;
@@ -369,3 +168,49 @@ header {
   padding-top: 0%;
   color: #ffffff;
   text-align: center; }
+
+.facebook {
+  width: 50px;
+  height: 50px; }
+
+.instagram {
+  width: 50px;
+  height: 50px; }
+
+.header, header {
+  background-color: #778899;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  position: fixed; }
+  .header .titulo-decoration, header .titulo-decoration, .header header, header header {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    animation-duration: 4s;
+    animation-name: titulo-decoration; }
+
+@keyframes titulo-decoration {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  .header .navbar, header .navbar, .header header, header header {
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    border-bottom: grey;
+    border-style: double; }
+    .header .navbar li a :hover, header .navbar li a :hover, .header header li a :hover, header header li a :hover {
+      transition: all 0.2s;
+      background-color: #778899;
+      display: inline-block; }
+  .header .container, header .container, .header header, header header {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer; }

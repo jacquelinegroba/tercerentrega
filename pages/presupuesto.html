@@ -7,17 +7,20 @@
     <meta name="description" content="J&M Mudanzas y Fletes a todo el pais. Mudarte resulta simple en manos de expertos">
     <meta name="keywords"  content="J&M, Mudanzas, Fletes, pais, mudarte, simple, expertos, barracas">
     <link rel="stylesheet" href="../estilos/estilo.css">
-    <link rel="shortcut icon" href="/media/favicon.png">
+    <link rel="shortcut icon" href="/media/fotojym.jpg">
     <title>J&M Fletes y Mudanzas</title>
   </head>
   <body>
+     <!--Header-->
      <div class="container-fluid">
       <header class="header col-12">
+         <!--Logo-->
           <div class="text-center logo">
               <a href="../index.html" class="titulo-decoration">
                  J&M Fletes y Mudanzas
               </a>
           </div>
+          <!--Navbar-->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"       data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"   aria-label="Toggle navigation">
@@ -45,9 +48,10 @@
             </div>
           </nav>
       </header>
-       <main class="mainPresupuesto">
+      <!--Main-->
+       <main class="mainPresupuesto d-flex justify-content-between">
          <div class="col-5 justify-content-center">
-              <div class="input-group mb-3 ">
+              <div class="input-group mb-3">
                  <label class="input-group-text" for="inputGroupSelect01">Tipo Presupuesto</label>
                   <select class="form-select" id="inputGroupSelect01">
                       <option selected>Mudanza Corta Distancia</option>
@@ -85,27 +89,25 @@
                  <button class="btn btn-primary" type="submit">Enviar Datos</button>
               </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center pb-5 mb-2">
             <div class="col-6">
                 <h2 class="text center">Tarifas Transparentes</h2>
                 <p>Cobraremos lo que pactamos sin trucos,cargos ocultos o adicionales, somos abiertos y transparentes acerca de nuestras tarifas.</p>
+               </div>
+               </div>
        </main>
-       <footer class="footer bg-secondary">
-         <div class="col-12 bg-secondary">
-              <p class="lead">
+       <!--Footer-->
+       <footer class="footerImagenes bg-secondary d-flex justify-content-between ">
+          <div class="col-6 bg-secondary  ">
+              <p class="pt-3">
                 ©️ Copyright 2022 J&M all rights reserved
               </p>
-             <div class="socialmedia text-center">
-                <div class="container">
-                   <div class="row">
-                      <div class="col">
-                         <a href="https://www.facebook.com/profile.php?id=100074324683162" target="_blank" ><img class="facebook" src="../media/fbicon.png"></a>
-                         <a href="https://www.instagram.com/jminifletes/?hl=es-la" target="_blank" ><img class="instagram" src="../media/instagramicon.png" alt="instagramicon"></a>
-                   </div>
-                </div>
-              </div>
-        </div>
-      </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          </div>
+          <div class="socialmedia text-center col-6 d-flex justify-content-evenly pt-1">
+               <a href="https://www.facebook.com/profile.php?id=100074324683162" target="_blank" ><img class="facebook" src="../media/fbicon.png"></a>
+               <a href="https://www.instagram.com/jminifletes/?hl=es-la" target="_blank" ><img class="instagram" src="../media/instagramicon.png" alt="instagramicon"></a>
+          </div>
+       </footer>
+       <script src="/js/bootstrap.js"></script>
 </body>
 </html>
